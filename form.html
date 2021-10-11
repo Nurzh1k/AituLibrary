@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- CSS Core -->
+    <link rel="stylesheet" href="Styles/style.css">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <title>Reserve a book</title>
+</head>
+
+<body>
+    <section>
+        <div id="intronav">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="homepage.html">
+                <img src="IMGs/aitu-logo-white-2-300x154.png" alt="" width="120" height="55">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="index.html">MAIN PAGE</a>
+                  <a class="nav-link" href="Books.html">BOOKS</a>
+                  <a class="nav-link" href="#contacts">CONTACTS</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+    </section>
+
+    <section>
+    <div id="intro" class = "cont pb-5">
+  <div class="container justify-content-center">
+    <h2 class="section-heading text-center pb-3 pt-4">FORM TO RESERVE A BOOK</h2>
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-7">
+            <form action="#" method="POSTmethod="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate">
+                <!-- Name input-->
+                <div class="mb-3">
+                  <label for="name">Name:</label>
+                    <input class="form-control" id="name" type="text" data-sb-validations="required" placeholder=" Enter name"/>
+                </div>
+                <!-- Surname input -->
+                <div class="mb-3">
+                  <label for="name">Surname:</label>
+                  <input class="form-control" id="name" type="text" data-sb-validations="required" placeholder=" Enter surname"/>
+                </div>
+                <!-- Student ID input-->
+                <div class="mb-3">
+                  <label for="phone">Student ID:</label>
+                  <input class="form-control" id="student id" type="tel" data-sb-validations="required" placeholder=" Enter ID"/>
+                </div>
+                <!-- Borrow date -->
+                <div class="mb-3">
+                  <label for="phone">Borrow date:</label>
+                  <input class="form-control" id="date" type="date" data-sb-validations="required"/>
+                </div>
+                <!-- Phone number input-->
+                <div class="mb-3">
+                  <label for="phone">Phone number:</label>
+                  <input class="form-control" id="phone" type="tel" data-sb-validations="required" placeholder=" Enter phone number"/>
+                </div>
+                <!-- Email address input-->
+                <div class="mb-3">
+                  <label for="email">Email address</label>
+                    <input class="form-control" id="email" type="email" data-sb-validations="required,email" placeholder=" Enter mail"/>
+                </div>
+                <!-- Submit button -->
+                  <div class="submit text-center pb-3 pt-2">
+                    <button type="submit" class="submitbtn btn btn-outline mb-2">SUBMIT</button>
+                  </div>
+            </form>
+        </div>
+    </div>
+  </div>
+    </div>
+    </section>
+
+  <!-- Footer -->
+  <section>
+    <div id="contacts" class="pb-2">
+      <div class="footcontainer text-center pt-4">
+        <h1 class="section-header text-center">Contacts</h1>
+          <div class="row py-4 d-flex justify-content-around">
+            <div class="col-xl-5 col-xs-11">
+              <p>Nur-Sultan <br>
+                EXPO Business Center, block C.1. <br>
+                Kazakhstan, 010000</p>
+            </div>
+            <div class="col-xl-5 col-xs-11">
+              <p>+7 (7172)645-710 <br>
+                info@astanait.edu.kz</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>  
+
+</body>
+</html>

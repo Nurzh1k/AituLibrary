@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+#intro{
+    background:url(../IMGs/intro.png) center no-repeat;
+    height: 300px;
+    color: white;
+}
+
+#intro a{
+    color: white;
+}
+
+
+#intro a:hover{
+    color: #edc8a5;
+    transition: 0.2s;
+}
+
+.header_part{
+    align-items: center;
+    text-align:center;
+}
+
+#bookscollection{
+    background-color: #FFF5EB;
+    color: #BBA996;
+}
+
+#carouselExampleIndicators{
+    background: #FFE9DC;
+    box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+#bestsellers{
+    background-color: #DEEDF0;
+    color: #8FB9C1;
+}
+
+.book_card{
+    background: #BED5DA;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    color: #5D8F99;
+    margin-bottom: 30px;
+    width: 342px;
+    height: 750px;
+}
+
+@media(max-width: 800px) {
+    .book_card{
+        margin-left: 10%;
+        width: 80%;
+        height: auto;
+    }
+    .db_card{
+        margin-left: 10%;
+        width: 80%;
+        height: auto;
+    }
+}
+
+.readmore{
+    border-radius: 30px;
+    background: #a4dce6;
+    color: #5cacbb;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.readmore:hover{
+    color: rgb(16, 113, 113);
+    transition: 0.2s;
+}
+
+
+#subdatabases{
+    background-color: #F4C7AB;
+    color: #B68383;
+}
+
+.db_card{
+    background: #E0B69B;
+    box-shadow: 10px 7px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    height: 800px;
+    margin-bottom: 30px;
+}
+
+#contacts{
+    background-color: #B2B8A3;
+    color: #737962;
+}
+

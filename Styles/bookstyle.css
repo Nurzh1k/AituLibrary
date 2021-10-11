@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+#intro{
+    background-color: #8FB9C1;
+}
+
+#intro a{
+    color: white;
+}
+
+#intro a:hover{
+    color: #69898f;
+    transition: 0.2s;
+}
+
+.container h1{
+    color: #5D8F99;
+    font-size: 70px;
+}
+
+#booksection{
+    background-color: #8FB9C1;
+}
+
+.book_card{
+    background: #BED5DA;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    color: #5D8F99;
+    width: 342px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin: 10px;
+    transition: all 0.2s;
+}
+
+.book_card:hover{
+    transform: scale(1.1);
+    animation: forwards;
+}
+
+@media(max-width: 800px) {
+    .book_card{
+        margin-left: 13%;
+        margin-bottom: 30px;
+        width: 75%;
+        height: 350px;
+    }
+}
+
+#book_desc{
+    background-color: #8FB9C1;
+}
+
+.book_cardrect{
+    background: #BED5DA;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    color: #5D8F99;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 600px) {
+    .book_cardrect{
+        margin-left: 5%;
+        width: 90%;
+    }
+}
+
+#contacts{
+    background-color: #ffffff;
+    color: #8FB9C1;
+}
